@@ -22,7 +22,15 @@ function exactMatch(array, obj)
     }
     return true;
   });
-}  
+}
+
+
+function exactMatchToList()
+{
+  exactMatch(array, obj).map(function(item){
+    return item.name;
+  });
+}
 
 
 
