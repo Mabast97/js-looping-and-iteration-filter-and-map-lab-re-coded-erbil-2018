@@ -27,7 +27,7 @@ function exactMatch(array, obj)
 
 function exactMatchToList()
 {
-  exactMatch(array, obj).map(function(item){
+ return exactMatch(array, obj).map(function(item){
     return item.name;
   });
 }
